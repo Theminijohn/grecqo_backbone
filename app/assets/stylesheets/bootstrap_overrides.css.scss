@@ -1,2 +1,6 @@
-@import 'bootstrap-sprockets'
-@import 'bootstrap'
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+
+@import 'apps/base';
+@import 'apps/header';
+@import 'apps/footer';

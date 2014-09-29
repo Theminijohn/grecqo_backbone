@@ -15,6 +15,9 @@ gem 'rails_config'
 gem 'compass-rails'
 gem 'bootstrap-sass'
 
+# Javascripts
+gem 'eco'
+
 group :development, :test do
   gem 'quiet_assets'
   gem 'better_errors'
