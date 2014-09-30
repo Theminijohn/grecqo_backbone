@@ -76,6 +76,7 @@ GEM
     mime-types (1.25.1)
     minitest (5.4.2)
     multi_json (1.10.1)
+    oj (2.9.9)
     passenger (4.0.50)
       daemon_controller (>= 1.2.0)
       rack
@@ -88,6 +89,8 @@ GEM
       slop (~> 3.4)
     quiet_assets (1.0.3)
       railties (>= 3.1, < 5.0)
+    rabl (0.9.3)
+      activesupport (>= 2.3.14)
     rack (1.5.2)
     rack-test (0.6.2)
       rack (>= 1.0)
@@ -154,10 +157,12 @@ DEPENDENCIES
   eco
   jbuilder (~> 2.0)
   jquery-rails
+  oj
   passenger
   pg
   pry
   quiet_assets
+  rabl
   rails (= 4.1.4)
   rails_12factor
   rails_config

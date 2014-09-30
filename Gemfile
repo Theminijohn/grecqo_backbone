@@ -18,6 +18,10 @@ gem 'bootstrap-sass'
 # Javascripts
 gem 'eco'
 
+# API
+gem 'rabl'
+gem 'oj'
+
 group :development, :test do
   gem 'quiet_assets'
   gem 'better_errors'
